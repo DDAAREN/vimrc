@@ -1,0 +1,5 @@
+syntax enable
+filetype plugin indent on
+autocmd FileType python setlocal et sta sw=4 sts=4
+set expandtab
+
