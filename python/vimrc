@@ -22,9 +22,12 @@ function Python_header_insert()
         return
     endif
     normal 0
+    normal O
     call setline('.', '#!/usr/bin/env python')
     normal o
     call setline('.', '# _*_ coding: UTF-8 _*_')
+    normal o
+    call setline('.', '')
     endfunction
 
     
