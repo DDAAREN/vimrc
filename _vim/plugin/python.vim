@@ -1,7 +1,4 @@
-syntax enable
-filetype plugin indent on
 autocmd FileType python setlocal et sta sw=4 sts=4 fileencoding=utf-8
-set expandtab
 
 function Python_header_default()
     " Add header to new python file
